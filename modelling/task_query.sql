@@ -8,8 +8,8 @@ ALTER TABLE multi_age_composite_dataset RENAME COLUMN 'School Code' TO School_co
 ALTER TABLE multi_age_composite_dataset RENAME COLUMN 'School Name' TO School_name;
 
 --- 
-ALTER TABLE student_attendance_unpivoted RENAME COLUMN 'School_Code' TO School_code;
-ALTER TABLE student_attendance_unpivoted RENAME COLUMN 'School_Name' TO School_name;
+ALTER TABLE student_attendance_dataset RENAME COLUMN 'school_Code' TO School_code;
+ALTER TABLE student_attendance_dataset RENAME COLUMN 'school_Name' TO School_name;
 
 DROP VIEW composite_class_attendance_data;
 
