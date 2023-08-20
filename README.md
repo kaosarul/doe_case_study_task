@@ -57,7 +57,13 @@ Model data had been created by creating view table named as nsw_composite_school
 
 ## Step 5 - Analyse the data
 The analysis was followed as below:
-<span style="color:yellow; font-size:10px;">Hypothesis Formulation:</span>
+- Hypothesis Formulation:
+| Title                   | Description                                                          |
+|-------------------------|----------------------------------------------------------------------|
+| **Objective**           | Determine if multi-age composite classes have an impact on attendance rates. |
+| **Null Hypothesis (H₀)** | Multi-age composite classes have no impact on attendance rates.      |
+| **Alternative Hypothesis (H₁)** | Multi-age composite classes have a significant impact on attendance rates. |
+
 
 
 # Submitting your work
