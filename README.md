@@ -7,7 +7,7 @@ In this case study, I delve into the dataset of public schools in New South Wale
 
 ## Background
 
-THe data sets had been taken from the [NSW Department of Education](https://education.nsw.gov.au/) which had been ingested into duckdb database in github codespace, model the data and then analyse the data to provide the data insights on the case topic - "Does multi age composite classes have an impact on attendance rates?".
+THe data sets had been taken from the [NSW Department of Education](https://education.nsw.gov.au/) which had been ingested into duckdb database in github codespace, model the data and then analyse the data to provide the data insights on the case topic - **Does multi age composite classes have an impact on attendance rates?**.
 
 The data sets include (more info below):
 - Attendance
@@ -20,7 +20,7 @@ Multi-age classes may benefit students both socially and emotionally. NSW consis
 
 You have been tasked to bring some data into the data warehouse (duckdb) and provide some analysis into:
 
-**Does multi age composite classes have an impact on attendance rates?**
+
 
 ## What are we testing?
 
