@@ -74,10 +74,25 @@ The analysis was followed as below:
 | `Pct_composite_classes vs. Attendance_pct`        | -0.208262         | Schools with more composite classes might see a bit less attendance. |
 | `Pct_composite_class_students vs. Attendance_pct`| -0.205552         | More students in composite classes could lead to a slight drop in attendance. |
 
-**Overall Summary**: 
+**Descriptive Statistics Summary**: 
 
 The more composite classes or students there are, there might be a slight drop in attendance. However, the relationship is generally weak, indicating other factors could play a significant role in attendance rates.
 
+### T-tests: Statistical Significance:
 
-# Submitting your work
+| Metric                          | t-statistic | p-value        | Interpretation                                                                       |
+|---------------------------------|-------------|----------------|--------------------------------------------------------------------------------------|
+| `Pct_composite_classes`         | -23.572692  | Close to 0     | Highly significant difference between high and low ICSEA schools.                     |
+| `Pct_composite_class_students`  | -23.001235  | Close to 0     | Significant difference in student percentages in composite classes by ICSEA.          |
+| `Attendance_pct`                | 35.825538   | Close to 0     | Significant attendance difference between high and low ICSEA schools.                 |
+
+**Correlation Analysis**:
+- `Pct_composite_classes vs. Attendance_pct`: Correlation = -0.208262 (weak negative)
+- `Pct_composite_class_students vs. Attendance_pct`: Correlation = -0.205552 (weak negative)
+
+**Summary**: 
+- Both composite class metrics show a significant difference between high and low ICSEA schools.
+- There's a weak negative correlation between composite classes/students and attendance.
+- However, correlation doesn't imply causation. Other factors could influence both the use of composite classes and attendance rates.
+
 
