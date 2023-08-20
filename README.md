@@ -7,28 +7,16 @@ In this case study, I delve into the dataset of public schools in New South Wale
 
 ## Background
 
-THe data sets had been taken from the [NSW Department of Education](https://education.nsw.gov.au/) which had been ingested into duckdb database in github codespace, model the data and then analyse the data to provide the data insights on the case topic - **Does multi age composite classes have an impact on attendance rates?**.
+The data sets had been taken from the [NSW Department of Education](https://education.nsw.gov.au/) which had been ingested into duckdb database in github codespace, model the data and then analyse the data to provide the data insights on the case topic - **Does multi age composite classes have an impact on attendance rates?**.
 
 The data sets include (more info below):
 - Attendance
 - Multi-age composite classes (classes are made up of students drawn from different year levels)
 - School properties
 
-## Your Task
+## Assessment Overview: Exploring NSW Public Schools Data
 
-Multi-age classes may benefit students both socially and emotionally. NSW consistently performs above the national average in NAPLAN testing.
-
-You have been tasked to bring some data into the data warehouse (duckdb) and provide some analysis into:
-
-
-
-## What are we testing?
-
-	- Your ability to solve problems
-	- SQL modelling. Its only 3 datasets don’t go crazy. We are not fussed on what data modelling technique you choose (dimensional, one big table, ect)
-	- Data analysis. Give us your opinions and insights on what you find in the data
-	- Document your work (nothing fancy, a simple README.md file is more than enough)
-    - Work with version control (git)
+I understand that this assessment is designed to evaluate problem-solving skills, SQL modeling proficiency, and data analysis capabilities. It involves working with three datasets related to NSW public schools. The emphasis is not on the specific data modeling technique but on delivering insights. I will document my process, findings, and insights in a straightforward README.md file, and version control will be maintained using Git.
 
 ## Step 1 - Setup the case study environment
 
