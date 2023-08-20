@@ -47,8 +47,10 @@ Various EDA (Exploratory Data Analysis) had been explored as below:
 | Attendance_pct              | -0.015                | 0.040                    | -0.204               | -0.204                       | 1.000          | 0.494       |
 | ICSEA_value                 | 0.001                 | 0.074                    | -0.398               | -0.395                       | 0.494          | 1.000       |
 
+The correlation matrix suggests several interesting relationships between attendance and other variables. Notably, there seems to be a mild positive correlation between attendance and ICSEA_value, indicating that schools with higher ICSEA values might have slightly better attendance rates. Additionally, there appears to be a small negative correlation between attendance and Pct_composite_classes as well as Pct_composite_class_students, hinting that schools with a higher percentage of composite classes might experience slightly lower attendance rates. However, it's important to note that correlations don't necessarily imply causation
 ### Line graph 
 - Line graph had been checked for Average Trends Over Years of Attendence and composite classes and found attendance and multi composite classes are little negatively related
+Also EDA done with *Q-Q plot (Quantile-Quantile plot): compare two probability distributions*, *Pairwise relationships and distributions* and *Distribution plot*.
 
 ## Step 4 - Model the data
 Model data had been created by creating view table named as nsw_composite_school_attendance_data.
