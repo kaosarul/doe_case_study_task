@@ -36,7 +36,7 @@ Data had been ingested into duckdb from 2 csv files
 Various EDA (Exploratory Data Analysis) had been explored as below:
 ### Data Distribution check
 - data found right and left skewed
-(C:\Users\islamm\OneDrive - Education Standards\Documents\PERSONAL\JOB\Education (Early Childhood Outcomes_ECO)\TASK\images\distribution_Multi_age_composite_unpivoted.png)
+(./data/distribution_Multi_age_composite_unpivoted.png)
 ## Step 4 - Model the data
 
 ## Step 5 - Analyse the data
