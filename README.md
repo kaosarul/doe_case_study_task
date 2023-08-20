@@ -95,4 +95,24 @@ The more composite classes or students there are, there might be a slight drop i
 - There's a weak negative correlation between composite classes/students and attendance.
 - However, correlation doesn't imply causation. Other factors could influence both the use of composite classes and attendance rates.
 
+### Hypothesis Outcome:
+
+## Analysis Results
+
+| Metric                         | p-value                     | Interpretation                                                                                                    |
+|--------------------------------|-----------------------------|-------------------------------------------------------------------------------------------------------------------|
+| `Composite_class_count`        | 0.1996                      | No significant difference in count of composite classes between high & low ICSEA schools.                          |
+| `Composite_class_students`     | 0.0004807                   | Significant difference.                                                                                           |
+| `Pct_composite_classes`        | Virtually 0                 | Significant difference.                                                                                           |
+| `Pct_composite_class_students` | Virtually 0                 | Significant difference.                                                                                           |
+| `Attendance_pct`               | Virtually 0                 | Significant attendance difference.                                                                               |
+| `latest_year_enrolment_FTE`    | Virtually 0                 | Significant difference.                                                                                           |
+| `Indigenous_pct`               | 0                           | Significant difference.                                                                                           |
+| `LBOTE_pct`                    | Virtually 0                 | Significant difference.                                                                                           |
+
+## Conclusions
+- Only `Composite_class_count` doesn't show a significant difference between high and low ICSEA schools.
+- Metrics related to composite classes (`Pct_composite_classes` and `Pct_composite_class_students`) and attendance (`Attendance_pct`) differ significantly between the two school types.
+- This indicates a relationship between multi-age composite classes and attendance across ICSEA levels. Further detailed analyses are needed to determine causation.
+
 
