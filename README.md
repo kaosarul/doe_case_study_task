@@ -56,6 +56,8 @@ Also EDA done with *Q-Q plot (Quantile-Quantile plot): compare two probability d
 Model data had been created by creating view table named as nsw_composite_school_attendance_data.
 
 ## Step 5 - Analyse the data
+The analysis was followed as below:
+<span style="color:yellow; font-size:10px;">Hypothesis Formulation:</span>
 
 
 # Submitting your work
