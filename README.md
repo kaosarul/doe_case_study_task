@@ -65,6 +65,17 @@ The analysis was followed as below:
 | **Null Hypothesis (H₀)** | Multi-age composite classes have no impact on attendance rates.      |
 | **Alternative Hypothesis (H₁)** | Multi-age composite classes have a significant impact on attendance rates. |
 
+- Descriptive Statistics:
+| Feature                                           | Correlation Value | Summary                                       |
+|---------------------------------------------------|-------------------|-----------------------------------------------|
+| `Composite_class_count vs. Attendance_pct`        | -0.013698         | Very weak negative relation.                  |
+| `Composite_class_students vs. Attendance_pct`     | 0.040343          | Slight increase with more students in composite classes. |
+| `Pct_composite_classes vs. Attendance_pct`        | -0.208262         | Schools with more composite classes might see a bit less attendance. |
+| `Pct_composite_class_students vs. Attendance_pct`| -0.205552         | More students in composite classes could lead to a slight drop in attendance. |
+
+**Overall Summary**: 
+
+The more composite classes or students there are, there might be a slight drop in attendance. However, the relationship is generally weak, indicating other factors could play a significant role in attendance rates.
 
 
 # Submitting your work
