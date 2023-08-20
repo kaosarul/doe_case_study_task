@@ -110,9 +110,31 @@ The more composite classes or students there are, there might be a slight drop i
 | `Indigenous_pct`               | 0                           | Significant difference.                                                                                           |
 | `LBOTE_pct`                    | Virtually 0                 | Significant difference.                                                                                           |
 
-## Conclusions
+## Summary of Hypothesis Test
 - Only `Composite_class_count` doesn't show a significant difference between high and low ICSEA schools.
 - Metrics related to composite classes (`Pct_composite_classes` and `Pct_composite_class_students`) and attendance (`Attendance_pct`) differ significantly between the two school types.
 - This indicates a relationship between multi-age composite classes and attendance across ICSEA levels. Further detailed analyses are needed to determine causation.
 
+## Multiple Linear Regression Analysis:
 
+- **R-squared:** 0.319 (31.9% of variance in `Attendance_pct` is explained by the model.)
+- **Adjusted R-squared:** 0.319 (Model is a good fit for explaining variation in `Attendance_pct`.)
+
+### Impact of Independent Variables on `Attendance_pct`:
+
+| Independent Variable          | Coefficient (coef) | Interpretation                                                               |
+|-------------------------------|--------------------|------------------------------------------------------------------------------|
+| `Composite_class_students`    | 0.0507             | A unit increase leads to a 0.0507 increase in Attendance_pct.                |
+| `Composite_class_count`       | -1.3036            | A unit increase leads to a -1.3036 decrease in Attendance_pct.               |
+| `Pct_composite_classes`       | 0.1512             | A unit increase leads to a 0.1512 increase in Attendance_pct.                |
+| `Pct_composite_class_students`| -0.1501            | A unit increase leads to a -0.1501 decrease in Attendance_pct.               |
+| `ICSEA_value`                 | 0.0117             | A unit increase leads to a 0.0117 increase in Attendance_pct.                |
+| `latest_year_enrolment_FTE`   | -0.0011            | A unit increase leads to a -0.0011 decrease in Attendance_pct.               |
+| `Indigenous_pct`              | -0.0548            | A unit increase leads to a -0.0548 decrease in Attendance_pct.               |
+| `LBOTE_pct`                   | -0.0074            | A unit increase leads to a -0.0074 decrease in Attendance_pct.               |
+
+### P-values:
+All p-values are close to zero, indicating the significance of each variable in the model.
+
+### Conclusion:
+Variables like `Composite_class_students`, `Composite_class_count`, and others significantly impact attendance rates. Notably, more composite classes are linked to reduced attendance. This offers a deeper understanding of factors affecting attendance in multi-age composite class schools.
