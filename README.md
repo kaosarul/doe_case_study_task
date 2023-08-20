@@ -141,7 +141,6 @@ Variables like `Composite_class_students`, `Composite_class_count`, and others s
 
 ## Machine Learning - Random Forest:
 
-## Insights from Random Forest Model:
 
 | Feature                        | Importance | Interpretation                                               |
 |--------------------------------|------------|--------------------------------------------------------------|
