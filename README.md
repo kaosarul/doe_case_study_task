@@ -57,7 +57,7 @@ Model data had been created by creating view table named as nsw_composite_school
 
 ## Step 5 - Analyse the data
 The analysis was followed as below:
-- Hypothesis Formulation:
+### Hypothesis Formulation:
 
 | Title                   | Description                                                          |
 |-------------------------|----------------------------------------------------------------------|
@@ -65,7 +65,7 @@ The analysis was followed as below:
 | **Null Hypothesis (H₀)** | Multi-age composite classes have no impact on attendance rates.      |
 | **Alternative Hypothesis (H₁)** | Multi-age composite classes have a significant impact on attendance rates. |
 
-- Descriptive Statistics:
+### Descriptive Statistics:
 
 | Feature                                           | Correlation Value | Summary                                       |
 |---------------------------------------------------|-------------------|-----------------------------------------------|
