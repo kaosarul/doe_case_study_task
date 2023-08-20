@@ -23,11 +23,12 @@ I understand that this assessment is designed to evaluate problem-solving skills
 - 1.b Initiating the Codespace
 
 ## Step 2 - Ingest data
-Data has been ingested into duckdb from 2 csv files 
+Data had been ingested into duckdb from 2 csv files 
 - 2022-multi-age_composite-classes-final.csv
 - 2022-attendance-data-final.csv
 
 ## Step 3 Explore the data
+Various EDA (Exploratory Data Analysis) had been explored.
 
 ## Step 4 - Model the data
 
