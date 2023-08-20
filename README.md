@@ -19,8 +19,8 @@ The data sets include (more info below):
 I understand that this assessment is designed to evaluate problem-solving skills, SQL modeling proficiency, and data analysis capabilities. It involves working with three datasets related to NSW public schools. The emphasis is not on the specific data modeling technique but on delivering insights. I will document my process, findings, and insights in a straightforward README.md file, and version control will be maintained using Git.
 
 ## Step 1 - Setup the case study environment
-1.a Creating the Repository
-1.b Initiating the Codespace
+- 1.a Creating the Repository
+- 1.b Initiating the Codespace
 
 ## Step 3 - Ingest data
 
