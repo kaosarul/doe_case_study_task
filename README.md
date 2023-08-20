@@ -1,17 +1,7 @@
 # New South Wales Department of Education (NSW DOE) - Data Case Study 🦘
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/wisemuffin/nsw_doe_data_case_study?quickstart=1)
-<!-- [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wisemuffin/nsw_doe_data_case_study) -->
-
-
-[New South Wales Department of Education (NSW DOE)](https://education.nsw.gov.au/) are looking for humans who are passionate about improving education.
-
-We created this case study for our aspiring data team members to show off some data skills and use some of the data we work with.
-
-**We want this case study to be as seamless as possible and take as little of your time as possible.** That’s why we are using github code spaces which instantly sets up the same environment for you.
-
-Find out more about the [NSW Department of Education](https://education.nsw.gov.au/)
-
+## Introduction
+In this case study, I delve into the dataset of public schools in New South Wales (NSW), Australia. My main goal is to investigate whether the configuration of mixed-age classes, where students from different age groups are combined, has any influence on their attendance rates. By examining attendance patterns in relation to various school factors, I aim to uncover insights into how class composition might impact student attendance in NSW public schools.
 
 # The Case Study
 
