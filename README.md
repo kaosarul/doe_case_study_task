@@ -29,102 +29,7 @@ Data had been ingested into duckdb from 2 csv files
 ### Data Cleaning
 - the above two datasets had been unpivoted
 - Missing value evaluation and Missing value imputation had been done 
-<duckdb.DuckDBPyConnection at 0x7f6f51402630>
-Percentage of outliers of the MULTI_AGE_COMPOSITE_UNPIVOTED table:
-------------------------------------------------------------
-Percentage of outliers of the MULTI_AGE_COMPOSITE_UNPIVOTED table:
-------------------------------------------------------------
-School_code: 0.00%
-AgeID: 18.19%
-Postcode: 0.09%
-latest_year_enrolment_FTE: 1.99%
-ICSEA_value: 1.44%
-Latitude: 16.88%
-Longitude: 28.07%
-
-Percentage of Missing Values of MULTI_AGE_COMPOSITE_UNPIVOTED :
---------------------------------------------------
-Composite_class_count           0.00000
-Composite_class_students        0.00000
-Pct_composite_classes           1.99765
-Pct_composite_class_students    1.99765
-dtype: float64
-Percentage of outliers in PUBLIC_SCHOOL_NSW_MASTER_DATASET:
-School_code: 0.00%
-AgeID: 18.19%
-Postcode: 0.09%
-latest_year_enrolment_FTE: 1.99%
-ICSEA_value: 1.44%
-Latitude: 16.88%
-Longitude: 28.07%
-Percentage of outliers in Attendance_pct: 4.82%
-
-
-Info on Missing Data in public_school_nsw_master_dataset
-                                        Missing Count   Missing %
-Support_classes                                  2216  100.000000
-Fax                                               101    4.557762
-LBOTE_pct                                          62    2.797834
-ICSEA_value                                        59    2.662455
-Indigenous_pct                                     50    2.256318
-latest_year_enrolment_FTE                          50    2.256318
-Assets unit                                        38    1.714801
-AECG_region                                        24    1.083032
-FACS_district                                      10    0.451264
-Local_health_district                              10    0.451264
-electorate_2015_2022                                8    0.361011
-Fed_electorate                                      8    0.361011
-Phone                                               4    0.180505
-Town_suburb                                         4    0.180505
-AgeID                                               2    0.090253
-School_Email                                        1    0.045126
-Date_1st_teacher                                    1    0.045126
-Postcode                                            1    0.045126
-SA4                                                 1    0.045126
-Operational_directorate_office_address              1    0.045126
-Operational_directorate_office_phone                1    0.045126
-Operational_directorate_office                      1    0.045126
-Principal_network                                   0    0.000000
-Operational_directorate                             0    0.000000
-School_code                                         0    0.000000
-ASGS_remoteness                                     0    0.000000
-Longitude                                           0    0.000000
-Latitude                                            0    0.000000
-Intensive_english_centre                            0    0.000000
-electorate_from_2023                                0    0.000000
-LGA                                                 0    0.000000
-Late_opening_school                                 0    0.000000
-School_gender                                       0    0.000000
-Distance_education                                  0    0.000000
-Preschool_ind                                       0    0.000000
-School_subtype                                      0    0.000000
-School_specialty_type                               0    0.000000
-Opportunity_class                                   0    0.000000
-Selective_school                                    0    0.000000
-Level_of_schooling                                  0    0.000000
-Website                                             0    0.000000
-Street                                              0    0.000000
-School_name                                         0    0.000000
-Date_extracted                                      0    0.000000
-------
-
-Info on Missing Data in multi_age_composite_unpivoted
-                              Missing Count  Missing %
-Pct_composite_classes                   272   1.996477
-Pct_composite_class_students            272   1.996477
-School_code                               0   0.000000
-School_name                               0   0.000000
-Year                                      0   0.000000
-Composite_class_count                     0   0.000000
-Composite_class_students                  0   0.000000
-------
-
-Info on Missing Data in student_attendance_unpivoted
-                Missing Count  Missing %
-Attendance_pct           1723   7.074813
-School_code                11   0.045167
-School_name                 0   0.000000
-Year                        0   0.000000
+	- Very nominal missing values had been found in the datasets
 - Outlier had been analysed by using 
 	- lower_bound = Q1 - 1.5 * IQR
 	- upper_bound = Q3 + 1.5 * IQR
@@ -132,11 +37,24 @@ Year                        0   0.000000
 Various EDA (Exploratory Data Analysis) had been explored as below:
 ### Data Distribution check
 - data found right and left skewed
+### Correlation graph
+|                              | Composite_class_count | Composite_class_students | Pct_composite_classes | Pct_composite_class_students | Attendance_pct | ICSEA_value |
+|------------------------------|-----------------------|--------------------------|----------------------|------------------------------|----------------|-------------|
+| Composite_class_count        | 1.000                 | 0.218                    | 0.013                | 0.218                        | -0.015         | 0.001       |
+| Composite_class_students     | 0.218                 | 1.000                    | 0.121                | 0.121                        | 0.040          | 0.074       |
+| Pct_composite_classes        | 0.013                 | 0.121                    | 1.000                | 0.996                        | -0.204         | -0.398      |
+| Pct_composite_class_students | 0.218                 | 0.121                    | 0.996                | 1.000                        | -0.204         | -0.395      |
+| Attendance_pct              | -0.015                | 0.040                    | -0.204               | -0.204                       | 1.000          | 0.494       |
+| ICSEA_value                 | 0.001                 | 0.074                    | -0.398               | -0.395                       | 0.494          | 1.000       |
+
+### Line graph 
+- Line graph had been checked for Average Trends Over Years of Attendence and composite classes and found attendance and multi composite classes are little negatively related
 
 ## Step 4 - Model the data
 Model data had been created by creating view table named as nsw_composite_school_attendance_data.
 
 ## Step 5 - Analyse the data
+
 
 # Submitting your work
 
