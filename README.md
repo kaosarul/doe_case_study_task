@@ -138,3 +138,26 @@ All p-values are close to zero, indicating the significance of each variable in 
 
 ### Conclusion:
 Variables like `Composite_class_students`, `Composite_class_count`, and others significantly impact attendance rates. Notably, more composite classes are linked to reduced attendance. This offers a deeper understanding of factors affecting attendance in multi-age composite class schools.
+
+## Machine Learning - Random Forest:
+
+## Insights from Random Forest Model:
+
+| Feature                        | Importance | Interpretation                                               |
+|--------------------------------|------------|--------------------------------------------------------------|
+| **ICSEA_value**                | Highest    | Major predictor of attendance rates.                         |
+| **Composite_class_students**   | High       | Significant contributor to predicting attendance rates.      |
+| **Indigenous_pct**             | High       | Significant contributor to predicting attendance rates.      |
+| **latest_year_enrolment_FTE**  | High       | Significant contributor to predicting attendance rates.      |
+| **Pct_composite_class_students** | Moderate  |                                                              |
+| **Pct_composite_classes**      | Moderate   |                                                              |
+| **Composite_class_count**      | Low        |                                                              |
+| **LBOTE_pct**                  | Low        |                                                              |
+
+### Model Performance:
+
+- **Mean Squared Error (MSE)**: Approximately 9.06.
+   - Interpretation: Improved prediction of attendance rates compared to previous analyses.
+
+### Summary of Random Forest Model:
+The model indicates that socio-educational advantage, class size, student demographics, etc., play a role in attendance rates.
