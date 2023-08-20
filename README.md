@@ -66,6 +66,7 @@ The analysis was followed as below:
 | **Alternative Hypothesis (H₁)** | Multi-age composite classes have a significant impact on attendance rates. |
 
 - Descriptive Statistics:
+
 | Feature                                           | Correlation Value | Summary                                       |
 |---------------------------------------------------|-------------------|-----------------------------------------------|
 | `Composite_class_count vs. Attendance_pct`        | -0.013698         | Very weak negative relation.                  |
