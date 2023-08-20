@@ -163,8 +163,6 @@ The model indicates that socio-educational advantage, class size, student demogr
 
 # Conclusion:
 
-Conclusion:
-
 Data analysis aimed to determine whether **multi-age composite classes affect attendance rates**. Descriptive statistics show a weak relationship, suggesting that the larger the classes or students, the slightly decreased attendance. However, other factors may have a larger effect on attendance rates.
 
 Statistically, there are significant differences between upper and lower ICSEA schools in aggregate grade parameters and attendance rates. However, correlation is not a direct indication of causation, so it cannot be concluded with certainty that the existence of multi-age composite classes has a direct impact on school attendance. . However, it should be noted that different measures related to aggregate grades and attendance showed significant differences between levels of ICSEA.
