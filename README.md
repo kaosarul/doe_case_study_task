@@ -26,7 +26,12 @@ I understand that this assessment is designed to evaluate problem-solving skills
 Data had been ingested into duckdb from 2 csv files 
 - 2022-multi-age_composite-classes-final.csv
 - 2022-attendance-data-final.csv
-
+### Data Cleaning
+- the above two datasets had been unpivoted
+- Missing value evaluation and Missing value imputation had been done 
+- Outlier had been analysed by using 
+	- lower_bound = Q1 - 1.5 * IQR
+	- upper_bound = Q3 + 1.5 * IQR
 ## Step 3 Explore the data
 Various EDA (Exploratory Data Analysis) had been explored.
 
