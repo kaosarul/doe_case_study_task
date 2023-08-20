@@ -160,3 +160,15 @@ Variables like `Composite_class_students`, `Composite_class_count`, and others s
 
 ### Summary of Random Forest Model:
 The model indicates that socio-educational advantage, class size, student demographics, etc., play a role in attendance rates.
+
+# Conclusion:
+
+Conclusion:
+
+Data analysis aimed to determine whether **multi-age composite classes affect attendance rates**. Descriptive statistics show a weak relationship, suggesting that the larger the classes or students, the slightly decreased attendance. However, other factors may have a larger effect on attendance rates.
+
+Statistically, there are significant differences between upper and lower ICSEA schools in aggregate grade parameters and attendance rates. However, correlation is not a direct indication of causation, so it cannot be concluded with certainty that the existence of multi-age composite classes has a direct impact on school attendance. . However, it should be noted that different measures related to aggregate grades and attendance showed significant differences between levels of ICSEA.
+
+From a multiple linear regression perspective, the model was able to explain about 31.9% of the difference in attendance, with composite class measures playing a role. For example, an increase in the number of composite classes by one unit leads to a decrease in attendance. This, combined with the random forest model, highlights several factors that influence attendance rates. Here, socio-educational advantage, represented by ICSEA_value, emerged as a major predictor. Composite grades, student demographics, and other variables also significantly influence attendance rates.
+
+In summary, while there's evidence that multi-age aggregators are associated with attendance rates, it's just one of many factors in a complex web of influencers. Further analyzes and studies are needed to definitively determine a causal relationship between aggregated classes across age ranges and attendance rates. 
